@@ -41,5 +41,5 @@ return (0);
 lh = binary_tree_height(tree->left);
 rh = binary_tree_height(tree->right);
 /* compare and return tallest */
-return ((lh > rh ? lh : rh) + 1);
+return ((lh > rh ? lh : rh) +1);
 }
